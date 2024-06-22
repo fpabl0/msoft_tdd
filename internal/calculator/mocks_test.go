@@ -51,3 +51,45 @@ func (mr *CalculatorMockMockRecorder) Addition(arg0, arg1 any) *gomock.Call {
 	mr.mock.ctrl.T.Helper()
 	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Addition", reflect.TypeOf((*CalculatorMock)(nil).Addition), arg0, arg1)
 }
+
+// Division mocks base method.
+func (m *CalculatorMock) Division(arg0, arg1 int) int {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "Division", arg0, arg1)
+	ret0, _ := ret[0].(int)
+	return ret0
+}
+
+// Division indicates an expected call of Division.
+func (mr *CalculatorMockMockRecorder) Division(arg0, arg1 any) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Division", reflect.TypeOf((*CalculatorMock)(nil).Division), arg0, arg1)
+}
+
+// Multiplication mocks base method.
+func (m *CalculatorMock) Multiplication(arg0, arg1 int) int {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "Multiplication", arg0, arg1)
+	ret0, _ := ret[0].(int)
+	return ret0
+}
+
+// Multiplication indicates an expected call of Multiplication.
+func (mr *CalculatorMockMockRecorder) Multiplication(arg0, arg1 any) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Multiplication", reflect.TypeOf((*CalculatorMock)(nil).Multiplication), arg0, arg1)
+}
+
+// Subtraction mocks base method.
+func (m *CalculatorMock) Subtraction(arg0, arg1 int) int {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "Subtraction", arg0, arg1)
+	ret0, _ := ret[0].(int)
+	return ret0
+}
+
+// Subtraction indicates an expected call of Subtraction.
+func (mr *CalculatorMockMockRecorder) Subtraction(arg0, arg1 any) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Subtraction", reflect.TypeOf((*CalculatorMock)(nil).Subtraction), arg0, arg1)
+}

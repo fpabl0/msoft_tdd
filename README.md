@@ -1,7 +1,7 @@
 # Test-Driven Development Practice
 
 All code has been written in `internal` folder.
-Test files ares the ones that ends with `_test.go`.
+Test files ares the ones that end with `_test.go`.
 
 ### 1. Generate mocks
 

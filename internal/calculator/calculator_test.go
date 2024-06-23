@@ -16,6 +16,7 @@ var divideByZeroPanicValue = func() (v interface{}) {
 	return 1 / x
 }()
 
+// Similar to a Java class
 type CalculatorTestSuite struct {
 	suite.Suite
 	calc *Calculator
